@@ -1,0 +1,38 @@
+{
+  "name": "pub-backend",
+  "version": "1.0.0",
+  "description": "This is an experimental back-end project for an hypothetical Pub company",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src --out-dir .compiled --source-maps --watch"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "andrebento",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.3",
+    "http-errors": "~1.6.2",
+    "mongoose": "^5.2.5",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
