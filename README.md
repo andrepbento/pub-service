@@ -14,6 +14,12 @@ The following things are needed to install and setup the back-end software:
 * [NPM.JS](https://www.npmjs.com/)
 * [MongoDB](https://www.mongodb.com/)
 
+The following things are needed ot install and setup the front-end software:
+
+* [Android Studio](https://developer.android.com/studio/) or [XCode](https://developer.apple.com/xcode/)
+* [Google Flutter](https://flutter.io/)
+* A physical or emulated device (iOS or Android)
+
 ### Installing
 
 All the code is required to get started.
@@ -36,7 +42,11 @@ npm install
 npm start
 ```
 
-Front-end project coming soon...
+To start the back-end project execute the following:
+```
+Open 'pub-service/my_pub' in Android Studio or XCode
+Hit Run on your device
+```
 
 ## Built With
 
