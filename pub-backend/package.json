@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "node start.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "compile": "babel src --out-dir .compiled --source-maps --watch"
   },
   "keywords": [
@@ -18,13 +18,16 @@
   "author": "andrebento",
   "license": "MIT",
   "dependencies": {
+    "chai": "^4.1.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "^4.16.3",
     "http-errors": "~1.6.2",
+    "mocha": "^5.2.0",
     "mongoose": "^5.2.5",
     "morgan": "~1.9.0",
-    "pug": "2.0.0-beta11"
+    "pug": "2.0.0-beta11",
+    "request": "^2.87.0"
   },
   "devDependencies": {
     "babel-preset-env": "^1.7.0",

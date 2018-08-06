@@ -6,13 +6,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:my_pub/main.dart';
+import 'package:my_pub/MyPub.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(new MyApp());
+    await tester.pumpWidget(new MyPubApp());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
